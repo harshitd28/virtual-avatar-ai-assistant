@@ -30,15 +30,9 @@ const Demo = () => {
     },
     {
       icon: Volume2,
-      title: 'Speak Back',
-      description: 'TTS generates response',
+      title: 'Respond',
+      description: 'Avatar delivers translated speech',
       color: 'from-purple-500 to-pink-500',
-    },
-    {
-      icon: Video,
-      title: 'Lip Sync',
-      description: 'Wav2Lip syncs avatar',
-      color: 'from-red-500 to-rose-500',
     },
   ];
 
@@ -133,7 +127,7 @@ const Demo = () => {
             How It <span className="gradient-text">Works</span>
           </h3>
           
-          <div className="grid md:grid-cols-5 gap-4 lg:gap-8">
+          <div className="grid md:grid-cols-4 gap-4 lg:gap-8">
             {workflowSteps.map((step, index) => (
               <motion.div
                 key={step.title}
@@ -186,7 +180,7 @@ const Demo = () => {
                 { step: '01', title: 'Start Conversation', desc: 'User initiates chat with avatar' },
                 { step: '02', title: 'Natural Speech', desc: 'Speak naturally in any language' },
                 { step: '03', title: 'AI Processing', desc: 'Real-time recognition & translation' },
-                { step: '04', title: 'Avatar Response', desc: 'Human-like response with lip sync' },
+                { step: '04', title: 'Avatar Response', desc: 'Avatar delivers translated speech' },
               ].map((journey, index) => (
                 <motion.div
                   key={journey.step}

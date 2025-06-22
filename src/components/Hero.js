@@ -64,7 +64,7 @@ const Hero = () => {
           >
             <span className="gradient-text">Virtual Avatar</span>
             <br />
-            <span className="text-white">AI Assistant</span>
+            <span className="text-white">AI Translator</span>
           </motion.h1>
 
           {/* Subtitle with Type Animation */}
@@ -74,17 +74,17 @@ const Hero = () => {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-xl md:text-2xl lg:text-3xl text-gray-300 mb-8"
           >
-            Talk to AI like never before —
+            Translate languages in real-time —
             <br />
             <TypeAnimation
               sequence={[
                 'face-to-face.',
                 2000,
-                'in real-time.',
+                'in any language.',
                 2000,
-                'with emotion.',
+                'instantly.',
                 2000,
-                'multilingual.',
+                'with clarity.',
                 2000,
               ]}
               wrapper="span"
@@ -101,7 +101,7 @@ const Hero = () => {
             transition={{ delay: 0.7, duration: 0.8 }}
             className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed"
           >
-            Experience the future of human-AI interaction with our state-of-the-art virtual avatar that listens, understands, translates, and responds with a human-like digital face.
+            Experience the future of global communication. Our state-of-the-art virtual avatar listens, understands, and translates speech in real-time, providing a seamless face-to-face translation experience.
           </motion.p>
 
           {/* CTA Buttons */}

@@ -75,8 +75,8 @@ const Footer = () => {
                   <span className="text-2xl font-bold gradient-text">Virtual Avatar</span>
                 </div>
                 <p className="text-gray-400 leading-relaxed max-w-md">
-                  Revolutionizing human-AI interaction with real-time speech recognition, 
-                  translation, and lip-syncing technology for a truly immersive experience.
+                  Revolutionizing global communication with real-time speech recognition 
+                  and translation, delivered through an immersive AI avatar experience.
                 </p>
               </motion.div>
 

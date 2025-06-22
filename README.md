@@ -1,6 +1,6 @@
-# Virtual Avatar AI Assistant
+# Virtual Avatar AI Translator
 
-A professional single-page website showcasing our AI Hackathon project - a real-time AI avatar that can listen, understand, translate, and respond to human speech using a human-like digital face.
+A professional single-page website showcasing our AI Hackathon project - a real-time AI avatar that can listen, understand, and translate speech between different languages.
 
 ## 🚀 Features
 
@@ -34,9 +34,8 @@ A professional single-page website showcasing our AI Hackathon project - a real-
 
 ### Technologies Featured
 - **Whisper** - Speech-to-Text
-- **GPT-4o** - Language Processing
-- **OpenAI Realtime API** - Translation & TTS
-- **Wav2Lip** - Lip Sync Technology
+- **GPT-4o** - Language Processing & Translation
+- **OpenAI Realtime API** - TTS
 - **React & FastAPI** - Frontend & Backend
 - **VideoSDK** - WebRTC Communication
 
@@ -75,7 +74,9 @@ All animations are powered by Framer Motion and can be customized in individual 
 ### Content
 Update the content in each component file:
 - `src/components/Hero.js` - Hero section content
-- `src/components/About.js` - About section
+- `src/components/About.js` - About section with problem/solution
+- `src/components/Demo.js` - Demo section with workflow
+- `src/components/TechStack.js` - Technology stack overview
 - `src/components/Team.js` - Team member information
 - `src/components/Contact.js` - Contact details
 

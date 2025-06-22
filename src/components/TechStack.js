@@ -45,14 +45,6 @@ const TechStack = () => {
       features: ['Instant translation', 'Natural voice synthesis', 'Low latency']
     },
     {
-      name: 'Wav2Lip',
-      category: 'Lip Sync',
-      description: 'Advanced lip-syncing technology for realistic avatar animation',
-      icon: Video,
-      color: 'from-purple-500 to-pink-500',
-      features: ['Precise lip sync', 'Real-time processing', 'Natural expressions']
-    },
-    {
       name: 'React',
       category: 'Frontend',
       description: 'Modern React framework for responsive user interface',
@@ -204,8 +196,8 @@ const TechStack = () => {
                 },
                 {
                   title: 'Avatar Layer',
-                  description: 'Lip-syncing and facial animation technology',
-                  tech: ['Wav2Lip', 'Video Processing', 'Real-time Sync'],
+                  description: 'Real-time avatar rendering and animation',
+                  tech: ['Video Processing', 'Real-time Sync'],
                   color: 'from-purple-500 to-pink-500'
                 }
               ].map((layer, index) => (

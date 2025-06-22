@@ -31,7 +31,7 @@ const About = () => {
     {
       icon: Users,
       title: 'Human-like',
-      description: 'Emotion-aware avatar with natural lip-syncing technology',
+      description: 'Engaging avatar for a natural conversational flow',
       color: 'from-purple-500 to-pink-500',
     },
   ];
@@ -64,9 +64,9 @@ const About = () => {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"
           >
-            <span className="gradient-text">Revolutionizing</span>
+            <span className="gradient-text">Bridging Language</span>
             <br />
-            <span className="text-white">Human-AI Interaction</span>
+            <span className="text-white">Barriers Instantly</span>
           </motion.h2>
 
           <motion.p
@@ -75,10 +75,10 @@ const About = () => {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed"
           >
-            Traditional AI assistants lack the human touch that makes conversations feel natural and engaging. 
-            Our Virtual Avatar AI Assistant bridges this gap by combining cutting-edge speech recognition, 
-            real-time translation, and advanced lip-syncing technology to create a truly immersive 
-            face-to-face AI experience.
+            Navigating conversations in different languages can be challenging and impersonal. 
+            Our Virtual Avatar AI Translator bridges this gap by combining cutting-edge speech recognition 
+            and real-time translation with a human-like digital face, creating an immersive 
+            and natural translation experience.
           </motion.p>
         </motion.div>
 
@@ -93,22 +93,22 @@ const About = () => {
           >
             <h3 className="text-2xl font-bold text-white mb-4">The Problem</h3>
             <p className="text-gray-300 leading-relaxed mb-6">
-              Current AI assistants are limited to text-based interactions or robotic voice responses, 
-              making conversations feel impersonal and disconnected. Users crave more natural, 
-              human-like interactions that include visual cues and emotional expression.
+              Traditional translation tools are often text-based or lack the nuance of face-to-face 
+              conversation, leading to misunderstandings and impersonal interactions. This creates 
+              significant barriers in global communication.
             </p>
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-center">
                 <span className="w-2 h-2 bg-red-500 rounded-full mr-3"></span>
-                No visual connection or facial expressions
+                Text-based translation
               </li>
               <li className="flex items-center">
                 <span className="w-2 h-2 bg-red-500 rounded-full mr-3"></span>
-                Limited emotional intelligence and context
+                Lack of nuance in face-to-face conversation
               </li>
               <li className="flex items-center">
                 <span className="w-2 h-2 bg-red-500 rounded-full mr-3"></span>
-                Language barriers in global communication
+                Global communication barriers
               </li>
             </ul>
           </motion.div>
@@ -122,22 +122,22 @@ const About = () => {
           >
             <h3 className="text-2xl font-bold text-white mb-4">Our Solution</h3>
             <p className="text-gray-300 leading-relaxed mb-6">
-              We've developed a comprehensive AI avatar system that combines OpenAI's Realtime API 
-              for speech processing, GPT-4o for intelligent responses, and Wav2Lip technology for 
-              realistic lip-syncing, creating a truly human-like AI interaction experience.
+              We've developed a powerful AI translation agent that uses OpenAI's Realtime API 
+              for speech processing and GPT-4o for intelligent, context-aware translation, all 
+              delivered through a human-like avatar for a more personal connection.
             </p>
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-center">
                 <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                Real-time speech recognition and translation
+                Real-time speech recognition
               </li>
               <li className="flex items-center">
                 <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                Emotion-aware avatar with natural expressions
+                Context-aware translation
               </li>
               <li className="flex items-center">
                 <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                Seamless multilingual communication
+                Human-like avatar
               </li>
             </ul>
           </motion.div>
