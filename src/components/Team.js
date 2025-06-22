@@ -17,7 +17,7 @@ const Team = () => {
       avatar: '👨‍💻',
       linkedin: 'https://www.linkedin.com/in/harshitdivekar/',
       github: '#',
-      email: 'harshit@example.com',
+      email: 'harshit.divekar@infobeans.com',
       color: 'from-blue-500 to-cyan-500'
     },
     {
@@ -25,9 +25,9 @@ const Team = () => {
       role: 'Backend Developer & System Architect',
       bio: 'Expert in backend development and system architecture',
       avatar: '👨‍🔧',
-      linkedin: '#',
+      linkedin: 'https://www.linkedin.com/in/paarth-sahni-a67471143/',
       github: '#',
-      email: 'paarth@example.com',
+      email: 'paarth.sahni@infobeans.com',
       color: 'from-green-500 to-emerald-500'
     },
     {
@@ -35,9 +35,9 @@ const Team = () => {
       role: 'AI Engineer & Computer Vision',
       bio: 'Focused on computer vision and AI model development',
       avatar: '👨‍🔬',
-      linkedin: '#',
+      linkedin: 'https://www.linkedin.com/in/hardik-ghiya-547555233/',
       github: '#',
-      email: 'hardik@example.com',
+      email: 'hardik.ghiya@infobeans.com',
       color: 'from-purple-500 to-pink-500'
     }
   ];
